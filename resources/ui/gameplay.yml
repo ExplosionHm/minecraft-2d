@@ -1,0 +1,16 @@
+slot: &slot
+  texture: ui/hotbar_slot
+
+hotbar: &hotbar
+  align: center-bottom
+  factory:
+    type: grid
+    matrix: 9*1
+    payload: *slot
+    align: center
+
+scene:
+  settings:
+    update_interval: 1
+
+  hotbar: *hotbar

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "minecraft:dirt": {
+      "textures": "dirt",
+      "applyRotation": true
+    },
+    "minecraft:stone": {
+      "textures": "stone",
+      "applyRotation": false
+    },
+    "minecraft:grass": {
+      "textures": "grass",
+      "applyRotation": false
+    }
+  }
+}
